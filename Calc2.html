@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Calculator
+    </title>
+</head>
+
+<body>
+    <section>
+        <form action="#" name="calc">
+            <h1>My Calculator</h2>
+                Number1:
+                <div>
+                    <input type="text" id="num1"><br>
+                </div>
+                Number2:
+                <div>
+                    <input type="text" id="num2"><br>
+                </div>
+                <div>
+                    <select id="operator">
+                        <option value="none">--select operator--</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <button name="answer" onclick="calculator()" id="answer">
+                    Answer
+                </button>
+                </div>
+                <div>
+                    <h2 id="ans">Result here!!</h2>
+                </div>
+        </form>
+    </section>
+    <script type="text/javascript" src="Calc2.js">
+    </script>
+</body>
+
+</html>
